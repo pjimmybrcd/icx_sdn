@@ -1,0 +1,91 @@
+.container{
+	font-family: "Dual 400";
+	text-align: center;
+	outline: none;
+	color: white;
+}
+
+h1{
+	color:#ffffff;
+	font-size:40px;
+	margin-bottom:3100;
+}
+
+
+p{
+	color: #000000;
+	margin-top:0;
+	margin-bottom:5;
+}
+
+
+iframe{
+	width: 100%;
+	height: 100%;
+}
+
+canvas{
+	height: 30vh !important;
+}
+
+/* label color */
+label {
+	text-align: left;
+	color: white !important;
+}
+
+input {
+	color: white !important;
+}
+
+button {
+	color: white;
+}
+
+select {
+	color: white;
+}
+
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+	border-bottom: 1px solid white !important;
+}
+
+.select-wrapper input.select-dropdown {
+	border-bottom: 1px solid white !important;
+}
+
+
+
+.input-field label {
+	color: white;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+	color: white;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid white;
+	box-shadow: 0 1px 0 0 white;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+	border-bottom: 1px solid white;
+	box-shadow: 0 1px 0 0 white;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+	border-bottom: 1px solid white;
+	box-shadow: 0 1px 0 0 white;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+	color: white;
+}
+    
